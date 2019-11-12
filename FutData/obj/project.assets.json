@@ -4806,11 +4806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m-add\\source\\repos\\FutCoach\\FutData\\FutData.csproj",
+      "projectUniqueName": "C:\\Users\\m-add\\Desktop\\FutCoach\\FutCoach\\FutData\\FutData.csproj",
       "projectName": "FutData",
-      "projectPath": "C:\\Users\\m-add\\source\\repos\\FutCoach\\FutData\\FutData.csproj",
+      "projectPath": "C:\\Users\\m-add\\Desktop\\FutCoach\\FutCoach\\FutData\\FutData.csproj",
       "packagesPath": "C:\\Users\\m-add\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m-add\\source\\repos\\FutCoach\\FutData\\obj\\",
+      "outputPath": "C:\\Users\\m-add\\Desktop\\FutCoach\\FutCoach\\FutData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

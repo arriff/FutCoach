@@ -6,3 +6,11 @@ C:\Users\m-add\source\repos\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.Ass
 C:\Users\m-add\source\repos\FutCoach\FutData\bin\Debug\netcoreapp3.0\FutData.pdb
 C:\Users\m-add\source\repos\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.dll
 C:\Users\m-add\source\repos\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.pdb
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\bin\Debug\netcoreapp3.0\FutData.deps.json
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\bin\Debug\netcoreapp3.0\FutData.dll
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\bin\Debug\netcoreapp3.0\FutData.pdb
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.csprojAssemblyReference.cache
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.AssemblyInfoInputs.cache
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.AssemblyInfo.cs
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.dll
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutData\obj\Debug\netcoreapp3.0\FutData.pdb
