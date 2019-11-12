@@ -9,9 +9,9 @@ namespace FutCoach.Repositories
 {
     public class TeamRepository : ITeamRepository
     {
-        private readonly FutcoachContext context;
+        private readonly FutCoachDbContext context;
 
-        public TeamRepository(FutcoachContext context)
+        public TeamRepository(FutCoachDbContext context)
         {
             this.context = context;
         }

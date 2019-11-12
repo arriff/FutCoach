@@ -9,16 +9,16 @@ namespace FutCoach.Repositories
 {
     public class PlayerRepository : IPlayerRepository
     {
-        private readonly FutcoachContext context;
+        private readonly FutCoachDbContext context;
 
-        public PlayerRepository(FutcoachContext context)
+        public PlayerRepository(FutCoachDbContext context)
         {
             this.context = context;
         }
 
         public List<PlayerViewModel> GetPlayers()
         {
-            return context.Players.Select(n => new PlayerViewModel
+           var playerModelList = context.Players.Select(n => new PlayerViewModel
             {
                 Id = n.PlayerId,
                 Firstname = n.PlayerFirstname,
@@ -35,6 +35,8 @@ namespace FutCoach.Repositories
                 Physicality = n.PlayerPhysicality,
                 Team_id = n.TeamId
             }).ToList();
+
+            return playerModelList;
         }
 
         public PlayerViewModel GetPlayerById(int playerID)

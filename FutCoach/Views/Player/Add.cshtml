@@ -2,45 +2,58 @@
 
 @using (Html.BeginForm("Add", "Players"))
 {
+
     @Html.LabelFor(m => m.Firstname)
     @Html.TextBoxFor(m => m.Firstname)
-
+    <br />
     @Html.LabelFor(m => m.Lastname)
     @Html.TextBoxFor(m => m.Lastname)
+    <br />
 
     @Html.LabelFor(m => m.Nation)
     @Html.TextBoxFor(m => m.Nation)
+    <br />
 
     @Html.LabelFor(m => m.Team)
     @Html.TextBoxFor(m => m.Team)
+    <br />
 
     @Html.LabelFor(m => m.League)
     @Html.TextBoxFor(m => m.League)
+    <br />
 
     @Html.LabelFor(m => m.Position)
     @Html.TextBoxFor(m => m.Position)
+    <br />
 
     @Html.LabelFor(m => m.Pace)
     @Html.TextBoxFor(m => m.Pace)
+    <br />
 
     @Html.LabelFor(m => m.Shooting)
     @Html.TextBoxFor(m => m.Shooting)
+    <br />
 
     @Html.LabelFor(m => m.Passing)
     @Html.TextBoxFor(m => m.Passing)
+    <br />
 
     @Html.LabelFor(m => m.Dribbling)
     @Html.TextBoxFor(m => m.Dribbling)
+    <br />
 
     @Html.LabelFor(m => m.Defending)
     @Html.TextBoxFor(m => m.Defending)
+    <br />
 
     @Html.LabelFor(m => m.Physicality)
     @Html.TextBoxFor(m => m.Physicality)
+    <br />
 
     @Html.LabelFor(m => m.Team_id)
     @Html.TextBoxFor(m => m.Team_id)
+    <br />
 
     <button type="submit">Add</button>
-  
+
 }

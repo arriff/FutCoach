@@ -1,16 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace FutData
 {
-    public partial class FutcoachContext : DbContext
+    public partial class FutCoachDbContext : DbContext
     {
-        public FutcoachContext()
-        {
-        }
-
-        public FutcoachContext(DbContextOptions<FutcoachContext> options)
+        public FutCoachDbContext(DbContextOptions<FutCoachDbContext> options)
             : base(options)
         {
+
         }
 
         public virtual DbSet<Cards> Cards { get; set; }
@@ -29,6 +28,7 @@ namespace FutData
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
 
             modelBuilder.Entity<Cards>(entity =>

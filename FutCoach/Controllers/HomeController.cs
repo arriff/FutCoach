@@ -8,9 +8,11 @@ using Microsoft.Extensions.Logging;
 using FutCoach.Models;
 using FutData;
 using FutCoach.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FutCoach.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
