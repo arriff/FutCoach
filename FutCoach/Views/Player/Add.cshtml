@@ -1,0 +1,46 @@
+﻿@model FutCoach.Models.PlayerViewModel
+
+@using (Html.BeginForm("Add", "Players"))
+{
+    @Html.LabelFor(m => m.Firstname)
+    @Html.TextBoxFor(m => m.Firstname)
+
+    @Html.LabelFor(m => m.Lastname)
+    @Html.TextBoxFor(m => m.Lastname)
+
+    @Html.LabelFor(m => m.Nation)
+    @Html.TextBoxFor(m => m.Nation)
+
+    @Html.LabelFor(m => m.Team)
+    @Html.TextBoxFor(m => m.Team)
+
+    @Html.LabelFor(m => m.League)
+    @Html.TextBoxFor(m => m.League)
+
+    @Html.LabelFor(m => m.Position)
+    @Html.TextBoxFor(m => m.Position)
+
+    @Html.LabelFor(m => m.Pace)
+    @Html.TextBoxFor(m => m.Pace)
+
+    @Html.LabelFor(m => m.Shooting)
+    @Html.TextBoxFor(m => m.Shooting)
+
+    @Html.LabelFor(m => m.Passing)
+    @Html.TextBoxFor(m => m.Passing)
+
+    @Html.LabelFor(m => m.Dribbling)
+    @Html.TextBoxFor(m => m.Dribbling)
+
+    @Html.LabelFor(m => m.Defending)
+    @Html.TextBoxFor(m => m.Defending)
+
+    @Html.LabelFor(m => m.Physicality)
+    @Html.TextBoxFor(m => m.Physicality)
+
+    @Html.LabelFor(m => m.Team_id)
+    @Html.TextBoxFor(m => m.Team_id)
+
+    <button type="submit">Add</button>
+  
+}

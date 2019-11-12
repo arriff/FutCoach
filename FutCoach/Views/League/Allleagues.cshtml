@@ -1,0 +1,26 @@
+﻿@model List<LeagueViewModel>
+
+@{
+
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+
+
+<h1>Leagues</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Nation</th>
+
+    </tr>
+    @foreach (LeagueViewModel league in Model)
+    {
+        <tr>
+            <td>@league.Id</td>
+            <td>@league.Name</td>
+            <td>@league.Nation</td>
+        </tr>
+    }
+</table>

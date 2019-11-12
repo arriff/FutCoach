@@ -1,0 +1,23 @@
+﻿@model List<NationViewModel>
+
+@{
+
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+
+
+<h1>Nations</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    @foreach (NationViewModel nation in Model)
+    {
+        <tr>
+            <td>@nation.Id</td>
+            <td>@nation.Name</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,48 @@
+﻿@model List<PlayerViewModel>
+
+@{
+
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+
+
+<h1>Leagues</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>League</th>
+        <th>Nation</th>
+        <th>Position</th>
+        <th>Pace</th>
+        <th>Shooting</th>
+        <th>Passing</th>
+        <th>Dribbling</th>
+        <th>Defending</th>
+        <th>Physicality</th>
+
+    </tr>
+    @foreach (PlayerViewModel player in Model)
+    {
+        <tr>
+            <td>@player.Id</td>
+            <td>@player.Firstname @player.Lastname</td>
+            <td>@player.Team</td>
+            <td>@player.League</td>
+            <td>@player.Nation</td>
+            <td>@player.Position</td>
+            <td>@player.Pace</td>
+            <td>@player.Shooting</td>
+            <td>@player.Passing</td>
+            <td>@player.Dribbling</td>
+            <td>@player.Defending</td>
+            <td>@player.Physicality</td>
+        </tr>
+    }
+        <tr>
+            <td>@Html.ActionLink("Add", "Add", "Players")</td>
+        </tr>
+
+</table>
