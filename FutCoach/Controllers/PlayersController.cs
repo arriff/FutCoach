@@ -1,5 +1,6 @@
 ﻿using FutCoach.Models;
 using FutCoach.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace FutCoach.Controllers
 {
+ 
     public class PlayersController : Controller
     {
         private readonly IPlayerRepository repo;
@@ -21,6 +23,7 @@ namespace FutCoach.Controllers
             var list = repo.GetPlayers();
             return View(@"~/Views/Player/Allplayers.cshtml", list);
         }
+        [Authorize(Policy = "TheAdministratorPolicy")]
         public ActionResult Add()
         {
             return View(@"~/Views/Player/Add.cshtml", new PlayerViewModel());

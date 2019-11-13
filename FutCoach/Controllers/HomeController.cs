@@ -24,6 +24,7 @@ namespace FutCoach.Controllers
 
         public IActionResult Index()
         {
+            var claims = User.Claims;
             return View();
         }
 

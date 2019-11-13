@@ -35,6 +35,7 @@ namespace FutCoach
             services.AddScoped<IPlayerRepository, PlayerRepository>();
 
             services.AddDefaultIdentity<FutCoachUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<IdentityContext>();
 
             services.AddRazorPages();
@@ -46,10 +47,15 @@ namespace FutCoach
             services.AddDbContext<FutCoachDbContext>(options =>
                        options.UseSqlServer(configuration.GetConnectionString("FutCoachConnection"),
                     sqlOptions => sqlOptions.MigrationsAssembly("FutCoach")));
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("TheAdministratorPolicy", Policy => Policy.RequireRole("Administrator"));
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {

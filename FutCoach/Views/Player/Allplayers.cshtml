@@ -23,25 +23,12 @@
         <th>Physicality</th>
     </tr>
 
-    @foreach (PlayerViewModel player in Model)
-    {
-        <tr>
-            <td>@player.Id</td>
-            <td>@player.Firstname @player.Lastname</td>
-            <td>@player.Team</td>
-            <td>@player.League</td>
-            <td>@player.Nation</td>
-            <td>@player.Position</td>
-            <td>@player.Pace</td>
-            <td>@player.Shooting</td>
-            <td>@player.Passing</td>
-            <td>@player.Dribbling</td>
-            <td>@player.Defending</td>
-            <td>@player.Physicality</td>
-        </tr>
-    }
-    <tr>
-        <td>@Html.ActionLink("Add", "Add", "Players")</td>
-    </tr>
+    @Html.DisplayForModel("DisplayPlayers")
 
 </table>
+<br />
+
+    @Html.ActionLink("Add", "Add", "Players")
+
+
+

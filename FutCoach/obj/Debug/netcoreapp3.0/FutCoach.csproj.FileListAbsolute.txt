@@ -299,7 +299,6 @@ C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\League\Allleagues.cshtml.g.cs
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Nation\Allnations.cshtml.g.cs
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Player\Add.cshtml.g.cs
-C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Player\Allplayers - Copy.cshtml.g.cs
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Player\Allplayers.cshtml.g.cs
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
@@ -315,3 +314,6 @@ C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\FutCoa
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\FutCoach.csproj.CopyComplete
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\FutCoach.dll
 C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\FutCoach.pdb
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Shared\DisplayTemplates\DisplayPlayers.cshtml.g.cs
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Shared\EditorTemplates\EditPlayers.cshtml.g.cs
+C:\Users\m-add\Desktop\FutCoach\FutCoach\FutCoach\obj\Debug\netcoreapp3.0\Razor\Views\Player\Edit.cshtml.g.cs
